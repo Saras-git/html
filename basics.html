@@ -70,8 +70,7 @@
     <cite>This is cite tag text</cite>
     <p>One of the most influential books in the field of computer science is
           <cite>Introduction to Algorithms</cite>
-          by Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, and Clifford Stein.
-      </p>
+           by Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, and Clifford Stein.</p>
       
 	<header>
 		<h1>My Website</h1>
@@ -82,7 +81,7 @@
 	<footer>
 		<p> 2024 My Website</p>
 	</footer>
-  <h3>
+<h3>
         Various options available in the
         Target Attribute
     </h3>
@@ -93,7 +92,7 @@
         browser window or tab.
     </p>
     <a href="https://www.geeksforgeeks.org//////" 
-       target="_blank">
+    target="_blank">
         GeeksforGeeks
     </a>
 
@@ -103,7 +102,7 @@
         same window or tab.
     </p>
     <a href="https://www.geeksforgeeks.org//////" 
-       target="_self">
+    target="_self">
         GeeksforGeeks
     </a>
 
@@ -113,7 +112,7 @@
         body of the window.
     </p>
     <a href="https://www.geeksforgeeks.org//////" 
-       target="_top">
+    target="_top">
         GeeksforGeeks
     </a>
 
@@ -123,9 +122,194 @@
         parent frame.
     </p>
     <a href="https://www.geeksforgeeks.org//////" 
-       target="_parent">
+    target="_parent">
         GeeksforGeeks
     </a>
+    <br>
+    <img src="images/gfg_logo.png" alt="gfg logo" width="200" height="200" title="logo of gfg" bordor="5"  />
+    <img src="images/gfg_logo.png" align="right"  style="width: 500px;height: 500px" />
+    <table>
+        <colgroup>
+            <col span="1" 
+            style="background-color: green" />
+            <col span="1" 
+            style="background-color: red" />
+            <col span="1" 
+            style="background-color: purple" />
+        </colgroup>
+        <caption>Student Information</caption>
+        <thead>
+        <tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Age</th>
+        </tr>
+        </thead>
+        <tr>
+            <td>Priya</td>
+            <td>Sharma</td>
+            <td>24</td>
+        </tr>
+        <tr>
+            <td>Arun</td>
+            <td>Singh</td>
+            <td>32</td>
+        </tr>
+        <tr>
+            <td>Sam</td>
+            <td>Watson</td>
+            <td>41</td>
+        </tr>
+    </table>
+    <h2>LIST</h2>
+    <ul>
+        <li>bread</li>
+        <li>milk</li>
+    </ul>
+    <ul type="square">
+        <li>bread</li>
+        <li>milk</li>
+    </ul>
+    <ul type="disc">
+        <li>bread</li>
+        <li>milk</li>
+    </ul>
+    <ul type="circle">
+        <li>bread</li>
+        <li>milk</li>
+    </ul>
+    <ol reversed>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JS</li>
+    </ol>
+    
+<p>start attribute</p>
+
+
+    <ol start="5">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JS</li>
+    </ol>
+    
+<p>type attribute</p>
+
+
+    <ol type="i">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JS</li>
+    </ol>
+    <dl>
+    <dt>Item 1</dt>
+    <dd>Description of Item 1 </dd>
+    <dt>Item 2</dt>
+    <dd>Description of Item 2</dd>
+</dl>
+ <h2>A Description List</h2>
+    <dl> 
+        <dt>Coffee</dt>
+        <dd>- 500 gms</dd>
+        <dt>Milk</dt>
+        <dd>- 1 ltr Tetra Pack</dd>
+    </dl>
+    
+    <form action="">
+        <label>Your Cars Name: </label>
+        <input list="cars">
+        <datalist id="cars">
+            <option value="BMW" />
+            <option value="Bentley" />
+            <option value="Mercedes" />
+            <option value="Audi" />
+            <option value="Volkswagen" />
+        </datalist>
+    </form>
+    <!DOCTYPE html>
+<html>
+<head>
+  <title>Button vs Input Button</title>
+</head>
+<body>
+
+  <h2>&lt;button&gt; examples</h2>
+
+  <!-- Normal button -->
+  <button type="button">Click Me (Button)</button><br><br>
+
+  <!-- Submit button -->
+  <button type="submit">Submit (Button)</button><br><br>
+
+  <!-- Reset button -->
+  <button type="reset">Reset (Button)</button><br><br>
+
+  <!-- Button with image -->
+  <button type="button">
+    <img src="https://via.placeholder.com/20" alt="icon"> With Icon
+  </button>
+
+  <hr>
+
+  <h2>&lt;input type="button"&gt; examples</h2>
+
+  <!-- Normal input button -->
+  <input type="button" value="Click Me (Input)"><br><br>
+
+  <!-- Submit input -->
+  <input type="submit" value="Submit (Input)"><br><br>
+
+  <!-- Reset input -->
+  <input type="reset" value="Reset (Input)">
+<form>
+		<label for="colors">Choose a color:</label>
+		<select id="colors" name="colors">
+			<option value="red">Red</option>
+			<option value="green">Green</option>
+			<option value="blue">Blue</option>
+		</select>
+	</form>
+    <form>
+		<label for="fruits">Choose a fruit:</label>
+		<select id="fruits" name="fruits">
+			<option value="" disabled selected>Select a fruit</option>
+			<option value="apple">Apple</option>
+			<option value="banana">Banana</option>
+			<option value="cherry">Cherry</option>
+		</select>
+	</form>
+    <form>
+    <label for="feedback">Your Feedback:</label><br>
+    <textarea id="feedback" name="feedback" rows="5" cols="40" placeholder="Write your feedback here..."></textarea><br><br>
+    <input type="submit" value="Submit">
+  </form>
+<h2>HTML optgroup Tag</h2>
+    <select>
+        <!-- optgroup tag starts -->
+        <optgroup label="Programming Languages">
+            <option value="C">
+                C
+            </option>
+            <option value="C++">
+                C++
+            </option>
+            <option value="Java">
+                Java
+            </option>
+        </optgroup>
+        <optgroup label="Scripting Language">
+            <option value="JavaScript">
+                JavaScript
+            </option>
+            <option value="PHP">
+                PHP
+            </option>
+            <option value="Shell">
+                Shell
+            </option>
+        </optgroup>
+        <!-- optgroup tag ends     -->
+    </select>
 </body>
 </html>
 
