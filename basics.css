@@ -11,3 +11,25 @@
     font-size: 25px;
     color: skyblue;
 };
+ div {
+            background-color: yellow;
+            width: 220px;
+            height: 40px;
+        }
+        
+.one {
+            border: 5px dotted cyan;
+            border-inline-style: solid;
+            border-block-style: dashed;
+            background-color: purple;
+        }
+.width{
+            margin-bottom: 10px;
+            border-style: solid;
+            border-color: black;
+            border-width: 5px 10px 15px 20px;
+}
+p.two {
+        border-style: solid;
+        border-color: blue red yellow green;
+    }
