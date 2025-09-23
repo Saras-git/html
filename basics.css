@@ -11,7 +11,7 @@
     font-size: 25px;
     color: skyblue;
 };
- div {
+div {
             background-color: yellow;
             width: 220px;
             height: 40px;
@@ -40,4 +40,13 @@ p.two {
             text-align: center;
             width: 300px;
             height: 120px;
+}
+.smaller{
+    margin: 20px;
+    color: red;
+    background-color: azure;
+    outline-style: solid;
+            outline-width: 5px;
+            outline-offset: 3px;
+            outline-color: pink;
 }
