@@ -50,3 +50,17 @@ p.two {
             outline-offset: 3px;
             outline-color: pink;
 }
+a{
+     background-color: green;
+            color: white;
+            padding: 5px 5px;
+            border-radius: 5px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+}
+ul {
+    list-style-image:
+url("https://write.geeksforgeeks.org/wp-content/uploads/listitem-1.png");
+}
+       
